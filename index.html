@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Hyper-casual</title>
+        <link rel="preconnect" href="https://bridge.playgama.com">
+        <link rel="preload" href="Build/959dd2073aa4f9d6adc939f4b71520ea.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
+        <link rel="preload" href="Build/638d493379d17dfa494451fdd85479c4.data.unityweb" as="fetch" crossorigin>
+        <link rel="preload" href="Build/407fa81a615d3d7177355461da0aeb1e.framework.js.unityweb" as="script">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+            }
+            .fullscreen-canvas {
+                background: #242424;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" class="fullscreen-canvas"></canvas>
+        <script src="./playgama-bridge-unity.js"></script>
+    </body>
+</html>
