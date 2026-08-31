@@ -143,9 +143,9 @@ function initializeBridge() {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/41e55c964050c9dedb053db5a76201c1.data.unityweb',
-                        frameworkUrl: 'Build/9c0ca06c118556e8fb12bbcae05fabb6.framework.js.unityweb',
-                        codeUrl: 'Build/51bd90dc3995c4f5916e3ac5eaba0e54.wasm.unityweb',
+                        dataUrl: 'Build/b1d17b5d4f1333bfb324fb88b76b3b36.data.unityweb',
+                        frameworkUrl: 'Build/41045aa129bc0c1b18e26aa685b02a4d.framework.js.unityweb',
+                        codeUrl: 'Build/92613e8376dfc4b7922fad39b1e284c8.wasm.unityweb',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'DefaultCompany',
                         productName: 'Hyper-casual',
